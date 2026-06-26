@@ -51,6 +51,18 @@ st.markdown("""
     section[data-testid="stSidebar"] * {
         color: #ecf0f1 !important;
     }
+    /* 侧边栏输入框文字 - 深色确保可读 */
+    section[data-testid="stSidebar"] input,
+    section[data-testid="stSidebar"] textarea,
+    section[data-testid="stSidebar"] .stTextInput input,
+    section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] span,
+    section[data-testid="stSidebar"] .stMultiSelect div[data-baseweb="select"] span {
+        color: #2c3e50 !important;
+    }
+    section[data-testid="stSidebar"] .stTextInput input::placeholder,
+    section[data-testid="stSidebar"] textarea::placeholder {
+        color: #95a5a6 !important;
+    }
     section[data-testid="stSidebar"] h1, 
     section[data-testid="stSidebar"] h2, 
     section[data-testid="stSidebar"] h3 {
