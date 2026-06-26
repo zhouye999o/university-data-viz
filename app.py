@@ -1156,5 +1156,5 @@ elif page == "🔮 预测分析":
 # ==================== 页脚 ====================
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("© 2025 数说高校 | 数据可视化分析平台")
+st.sidebar.markdown("© 2026 数说高校 | 数据可视化分析平台")
 st.sidebar.caption(f"当前数据：{total_uni} 所高校，{uni_df['省份'].nunique()} 个省份")

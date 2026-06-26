@@ -730,7 +730,7 @@ columns = ["院校名称", "省份", "城市", "院校类型", "办学层次", "
 df = pd.DataFrame(universities, columns=columns)
 
 # 计算学校年龄
-df["办学年限"] = 2025 - df["创办年份"]
+df["办学年限"] = 2026 - df["创办年份"]
 
 # 添加标签
 def get_label(row):
